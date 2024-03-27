@@ -13,7 +13,7 @@ Created on Wed Mar  6 18:43:47 2024
 import pandas as pd
 
 # carregando os dados do dataset e inserindo na variavel pokemon
-pokemon = pd.read_csv("C:/Users/20232enpro0010/Downloads/pokemon_data.csv")
+pokemon = pd.read_csv("C:/Users/Downloads/pokemon_data.csv")
 # Exitem 12 variáveis e 800 casos
 
 # descrição dos dados
