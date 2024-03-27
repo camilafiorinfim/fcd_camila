@@ -12,7 +12,7 @@ from statsmodels.tsa.api import SimpleExpSmoothing
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # caminho, pega a primeira coluna com as datas (ano,mes,dia), coluna com datas indice pra se localizar, puxa como objeto de série
-data = pd.read_csv("C:/Users/20232enpro0010/Downloads/st_ds8_birth.csv", parse_dates=[0], index_col=0) 
+data = pd.read_csv("C:/Users/Downloads/st_ds8_birth.csv", parse_dates=[0], index_col=0) 
 
 # Gráfico de linha
 grafico=data.plot()
